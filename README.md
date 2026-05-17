@@ -155,7 +155,7 @@ Architecture:
 
 ## ROC Curve for Genomic Identification
 
-![ROC Curve](figures/roccurve_genomic_identification.png)
+![ROC Curve](figures/ROC%20Curve%20for%20Genomic%20Identification.png)
 
 ---
 
