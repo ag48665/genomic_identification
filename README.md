@@ -187,8 +187,27 @@ using genomic variation patterns extracted from chromosome 20.
 The ancestry inference model achieved approximately **81% classification accuracy** using a Random Forest classifier trained on 10,000 SNPs across 1,000 individuals.
 
 ### Confusion Matrix
+---
 
-![Ancestry Inference](figures/ancestry_inference_confusion_matrix.png)
+## Population-Aware Ancestry Inference
+
+A supervised genomic ancestry classifier was trained using SNP vectors from the 1000 Genomes Project.
+
+The model predicts continental ancestry groups:
+
+- AFR
+- AMR
+- EAS
+- EUR
+- SAS
+
+using genomic variation patterns extracted from chromosome 20.
+
+The ancestry inference model achieved approximately **81% classification accuracy** using a Random Forest classifier trained on 10,000 SNPs across 1,000 individuals.
+
+### Confusion Matrix
+
+![Ancestry Inference](figures/Ancestry%20Inference%20Confusion%20Matrix.png)
 
 ---
 
