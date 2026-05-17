@@ -158,7 +158,6 @@ Architecture:
 ![ROC Curve](figures/ROC%20Curve%20for%20Genomic%20Identification.png)
 
 ---
----
 
 ## Population-Aware Genomic Clustering
 
