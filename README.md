@@ -147,6 +147,12 @@ Architecture:
 
 ---
 
+## Posterior Identity Probabilities
+
+![Posterior Identity](figures/posterior_identity_probabilities_mixture1.png)
+
+---
+
 # Technologies Used
 
 - Python
