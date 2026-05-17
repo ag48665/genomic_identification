@@ -158,7 +158,17 @@ Architecture:
 ![ROC Curve](figures/ROC%20Curve%20for%20Genomic%20Identification.png)
 
 ---
+---
 
+## Population-Aware Genomic Clustering
+
+This PCA visualization demonstrates genomic clustering patterns across individuals from different populations in the 1000 Genomes Project.
+
+Population labels reveal latent ancestry structure encoded in genomic variation.
+
+![Population PCA](figures/population_aware_pca.png)
+
+---
 
 # Technologies Used
 
