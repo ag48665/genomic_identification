@@ -171,3 +171,23 @@ genomic_identification/
 ├── src/
 ├── README.md
 └── requirements.txt
+
+---
+
+# Future Directions
+
+- Bayesian probabilistic genomic inference
+- Transformer-based genomic embeddings
+- Contrastive learning for identity matching
+- Population-aware forensic inference
+- Ancient DNA degradation modeling
+- GPU-scale training on full 1000 Genomes datasets
+
+---
+
+# Author
+
+**Agata Gabara**
+
+Computational Genomics / Bioinformatics / Machine Learning  
+Vrije Universiteit Amsterdam
