@@ -149,7 +149,7 @@ Architecture:
 
 ## Posterior Identity Probabilities
 
-![Posterior Identity](figures/posterior_identity_probabilities_mixture1.png)
+![Posterior Identity](figures/Posterior%20probabilities%20of%20membership%20in%20mixture%20component%201.png)
 
 ---
 
