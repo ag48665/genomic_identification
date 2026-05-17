@@ -1,54 +1,173 @@
 # Computational Methods for Human Identification from Degraded and Mixed DNA Samples
+
 ## Using Deep Learning and Probabilistic Genomic Inference
 
-This project develops a computational genomics framework for human identification from degraded and mixed DNA samples using 1000 Genomes Project genotype data.
+This project develops a computational genomics framework for forensic-style human identification from degraded and mixed DNA samples using large-scale population genotype data from the 1000 Genomes Project.
 
-## Overview
+The goal is to investigate how genomic identity matching behaves under increasing uncertainty, missing data, and contributor mixtures using both classical similarity-based methods and deep learning approaches.
 
-Forensic DNA samples are often degraded, incomplete, or composed of DNA from multiple individuals. This project simulates these conditions and evaluates how genomic identity matching performs under increasing uncertainty.
+---
 
-## Dataset
+# Overview
 
-- 1000 Genomes Project Phase 3
+Forensic DNA samples are frequently incomplete, degraded, noisy, or composed of DNA originating from multiple individuals. These conditions create major computational challenges for reliable human identification.
+
+This project simulates realistic degradation and DNA mixture scenarios and evaluates genomic matching performance under varying uncertainty levels.
+
+The framework combines:
+
+- probabilistic genomic inference,
+- cosine-similarity identity matching,
+- entropy-based uncertainty estimation,
+- PCA-based genomic visualization,
+- and deep neural network embedding models.
+
+---
+
+# Dataset
+
+- **1000 Genomes Project Phase 3**
 - Chromosome 20 genotype VCF
-- 2,504 individuals
-- Subset used for MVP: 10,000 SNPs × 100 individuals
+- 2,504 individuals available
+- MVP subset:
+  - 10,000 SNPs
+  - 100 individuals
 
-## Methods
+---
 
-- Genotype matrix extraction from VCF files
-- Synthetic DNA degradation via SNP dropout
-- Mixed DNA sample simulation
-- Cosine-similarity identity matching
-- Entropy-based uncertainty estimation
-- PCA visualization of genomic mixture space
-- Deep neural network baseline for genomic embeddings
+# Methods
 
-## Key Results
+## Genomic Data Processing
 
-- Identification remained robust up to 50% SNP dropout.
-- Accuracy dropped sharply at 70–90% degradation.
-- Balanced 50/50 DNA mixtures showed the highest uncertainty.
-- Dominant-contributor mixtures produced lower entropy and higher confidence.
-- Deep learning models learned genomic embeddings but showed overfitting under limited identity-level supervision.
+- VCF genotype extraction using `scikit-allel`
+- SNP matrix generation
+- Genotype encoding into numerical genomic vectors
 
-## Figures
+## DNA Degradation Simulation
 
-![Degradation Accuracy](figures/degradation_accuracy_curve.png)
+Synthetic degradation was simulated using random SNP dropout across varying degradation levels:
+
+- 10%
+- 30%
+- 50%
+- 70%
+- 90%
+
+Missing SNPs were masked to emulate damaged forensic DNA samples.
+
+## Mixed DNA Sample Simulation
+
+Synthetic DNA mixtures were generated using weighted combinations of genomic profiles from multiple individuals.
+
+Example mixture ratios:
+
+- 50/50
+- 70/30
+- 90/10
+
+## Identity Matching
+
+- Cosine similarity–based genomic matching
+- Top-match identification
+- Confidence score estimation
+- Entropy-based uncertainty analysis
+
+## Dimensionality Reduction
+
+Principal Component Analysis (PCA) was used to visualize:
+
+- genomic clustering,
+- mixed DNA positioning,
+- latent genomic structure.
+
+## Deep Learning Baseline
+
+A neural network classifier was implemented in PyTorch to learn genomic embeddings from SNP vectors.
+
+Architecture:
+
+- Fully connected feed-forward network
+- ReLU activations
+- Cross-entropy optimization using Adam
+
+---
+
+# Key Results
+
+- Identification accuracy remained highly robust up to approximately **50% SNP degradation**.
+- Performance declined sharply at **70–90% degradation levels**.
+- Balanced DNA mixtures produced the highest uncertainty and entropy.
+- Dominant-contributor mixtures yielded stronger confidence scores.
+- PCA visualization demonstrated clear separation between individuals and mixed genomic profiles.
+- Deep learning models successfully learned latent genomic embeddings, though overfitting emerged under limited identity supervision.
+
+---
+
+# Figures
+
+## Identification Accuracy Under DNA Degradation
+
+![Identification Accuracy](figures/identification_accuracy_vs_degradation.png)
+
+---
+
+## Mixture Balance vs Entropy
 
 ![Mixture Entropy](figures/mixture_balance_vs_entropy.png)
 
-![PCA Mixed Samples](figures/pca_mixed_samples.png)
+---
+
+## PCA Visualization of Mixed DNA Samples
+
+![PCA Mixed Samples](figures/pca_mixed_dna_samples.png)
+
+---
+
+## Deep Genomic Embedding Space
 
 ![Deep Embedding Space](figures/deep_genomic_embedding_space.png)
 
-## Project Structure
+---
+
+## Mixture Similarity Scores
+
+![Mixture Similarity](figures/mixture_similarity_scores.png)
+
+---
+
+## Mean Genotype Distribution Across Individuals
+
+![Mean Genotype](figures/mean_genotype_per_individual.png)
+
+---
+
+## Deep Learning Training Curve
+
+![Training Curve](figures/neural_network_training_curve.png)
+
+---
+
+# Technologies Used
+
+- Python
+- NumPy
+- SciPy
+- scikit-learn
+- scikit-allel
+- Matplotlib
+- PyTorch
+- Jupyter Notebook
+
+---
+
+# Project Structure
 
 ```text
-data/
-notebooks/
-figures/
-results/
-src/
-README.md
-requirements.txt
+genomic_identification/
+│
+├── figures/
+├── notebooks/
+├── results/
+├── src/
+├── README.md
+└── requirements.txt
