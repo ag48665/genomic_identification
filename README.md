@@ -1,5 +1,13 @@
 # Computational Methods for Human Identification from Degraded and Mixed DNA Samples
 
+---
+
+## Computational Genomics Pipeline
+
+![Pipeline](figures/genomic_pipeline_diagram.png)
+
+---
+
 ## Using Deep Learning and Probabilistic Genomic Inference
 
 This project develops a computational genomics framework for forensic-style human identification from degraded and mixed DNA samples using large-scale population genotype data from the 1000 Genomes Project.
