@@ -13,6 +13,11 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://genomic-identification-ai.streamlit.app/)
 
 ---
+## Interactive Dashboard Preview
+
+![Dashboard](figures/streamplit_app_screenshot.png)
+
+---
 
 ## Using Deep Learning and Probabilistic Genomic Inference
 
