@@ -373,11 +373,11 @@ capturing latent genomic variation across individuals.
 
 ### Learned Latent Genomic Representation
 
-![Latent Genomic Representation](figures/deep_autoencoder_genomic_embeddings.png)
+![Latent Genomic Representation](figures/Learned%20Latent%20Genomic%20Representation.png)
 
 ### Autoencoder Training Loss
 
-![Training Loss](figures/autoencoder_training_loss.png)
+![Training Loss](figures/Autoencoder%20Training%20Loss.png)
 
 ---
 
