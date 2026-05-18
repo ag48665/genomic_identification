@@ -245,21 +245,6 @@ The probabilistic framework transforms cosine similarity evidence into normalize
 
 ---
 
-## Bayesian Uncertainty Quantification
-
-Posterior entropy was used to quantify uncertainty in genomic identity assignment.
-
-Lower entropy indicates confident identity predictions, while higher entropy reflects ambiguous or mixed genomic evidence.
-
----
-
-
-### Bayesian Confidence and Uncertainty
-
-![Bayesian Uncertainty](figures/bayesian_uncertainty_metrics.png)
-
----
-
 ## Bayesian Identity Confidence and Uncertainty
 
 Bayesian posterior probabilities and entropy metrics were used to quantify confidence and uncertainty in forensic genomic identity assignment.
@@ -268,8 +253,8 @@ Lower entropy corresponds to more confident identity predictions, while higher e
 
 ![Bayesian Uncertainty](figures/bayesian_identity_uncertainty.png)
 
-
 ---
+
 ## Multiclass ROC Analysis
 
 Receiver Operating Characteristic (ROC) analysis was performed for multiclass genomic ancestry inference.
