@@ -169,8 +169,6 @@ Population labels reveal latent ancestry structure encoded in genomic variation.
 
 ---
 
----
-
 ## Population Structure Visualization with UMAP
 
 UMAP dimensionality reduction was applied to genomic SNP vectors to visualize latent ancestry structure across continental populations from the 1000 Genomes Project.
@@ -245,8 +243,6 @@ The probabilistic framework transforms cosine similarity evidence into normalize
 
 ---
 
----
-
 ## Bayesian Uncertainty Quantification
 
 Posterior entropy was used to quantify uncertainty in genomic identity assignment.
@@ -256,6 +252,15 @@ Lower entropy indicates confident identity predictions, while higher entropy ref
 ### Bayesian Confidence and Uncertainty
 
 ![Bayesian Uncertainty](figures/bayesian_uncertainty_metrics.png)
+
+---
+## Bayesian Identity Confidence and Uncertainty
+
+Bayesian posterior probabilities and entropy metrics were used to quantify confidence and uncertainty in forensic genomic identity assignment.
+
+Lower entropy corresponds to more confident identity predictions, while higher entropy reflects ambiguous or mixed genomic evidence.
+
+![Bayesian Uncertainty](figures/bayesian_identity_uncertainty.png)
 
 ---
 
