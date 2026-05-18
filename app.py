@@ -19,13 +19,14 @@ st.sidebar.title("Navigation")
 
 section = st.sidebar.radio(
     "Choose Section",
-    [
-        "Overview",
-        "Population Structure",
-        "Ancestry Inference",
-        "Bayesian Inference",
-        "Explainable Genomic AI"
-    ]
+  [
+    "Overview",
+    "Population Structure",
+    "Ancestry Inference",
+    "Bayesian Inference",
+    "Explainable Genomic AI",
+    "Deep Genomic Embeddings"
+]
 )
 
 FIG_DIR = "figures"
@@ -83,3 +84,20 @@ if section == "Explainable Genomic AI":
     show_figure("explainable_snp_importance.png")
 
     show_figure("snp_feature_importance.png")
+
+if section == "Deep Genomic Embeddings":
+
+    st.header("Deep Genomic Embeddings")
+
+    st.markdown("""
+    Neural autoencoders were trained on SNP matrices
+    to learn compressed latent genomic representations.
+
+    The learned embeddings capture hidden genomic structure
+    across individuals in a reduced latent space.
+    """)
+
+    show_figure("Learned Latent Genomic Representation.png")
+
+    show_figure("Autoencoder Training Loss.png")
+
