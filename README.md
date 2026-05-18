@@ -21,6 +21,32 @@ This project develops a computational genomics framework for forensic-style huma
 The goal is to investigate how genomic identity matching behaves under increasing uncertainty, missing data, and contributor mixtures using both classical similarity-based methods and deep learning approaches.
 
 ---
+## Key Features
+
+- Population structure inference from genomic SNP data
+- PCA and UMAP visualization of ancestry clusters
+- Bayesian genomic identity uncertainty estimation
+- DNA degradation robustness simulation
+- Explainable AI using SNP feature importance analysis
+- Deep autoencoder latent genomic embeddings
+- Interactive Streamlit AI dashboard
+  
+---
+
+## Tech Stack
+
+- Python
+- PyTorch
+- scikit-learn
+- scikit-allel
+- NumPy
+- Matplotlib
+- Streamlit
+- Genomic VCF processing
+
+---
+
+
 
 # Overview
 
@@ -221,24 +247,6 @@ The ancestry inference model achieved approximately **81% classification accurac
 
 ---
 
-## Population-Aware Ancestry Inference
-
-A supervised genomic ancestry classifier was trained using SNP vectors from the 1000 Genomes Project.
-
-The model predicts continental ancestry groups:
-
-- AFR
-- AMR
-- EAS
-- EUR
-- SAS
-
-using genomic variation patterns extracted from chromosome 20.
-
-The ancestry inference model achieved approximately **81% classification accuracy** using a Random Forest classifier trained on 10,000 SNPs across 1,000 individuals.
-
----
-
 ### Confusion Matrix
 
 ![Ancestry Inference](figures/Ancestry%20Inference%20Confusion%20Matrix.png)
@@ -379,29 +387,6 @@ capturing latent genomic variation across individuals.
 
 ![Training Loss](figures/Autoencoder%20Training%20Loss.png)
 
----
-## Key Features
-
-- Population structure inference from genomic SNP data
-- PCA and UMAP visualization of ancestry clusters
-- Bayesian genomic identity uncertainty estimation
-- DNA degradation robustness simulation
-- Explainable AI using SNP feature importance analysis
-- Deep autoencoder latent genomic embeddings
-- Interactive Streamlit AI dashboard
-
----
-
-## Tech Stack
-
-- Python
-- PyTorch
-- scikit-learn
-- scikit-allel
-- NumPy
-- Matplotlib
-- Streamlit
-- Genomic VCF processing
 ---
 
 # Project Structure
