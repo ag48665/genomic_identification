@@ -10,10 +10,6 @@
 
 ## Interactive Genomic AI Dashboard
 
-Live application:
-
-https://genomic-identification-ai.streamlit.app/
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://genomic-identification-ai.streamlit.app/)
 
 ---
