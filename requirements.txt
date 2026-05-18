@@ -7,3 +7,5 @@ torch
 scikit-allel
 streamlit
 pillow
+umap-learn
+scipy
