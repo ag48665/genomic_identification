@@ -263,6 +263,15 @@ Lower entropy corresponds to more confident identity predictions, while higher e
 ![Bayesian Uncertainty](figures/bayesian_identity_uncertainty.png)
 
 ---
+## Multiclass ROC Analysis
+
+Receiver Operating Characteristic (ROC) analysis was performed for multiclass genomic ancestry inference.
+
+The classifier demonstrated strong discriminative performance across continental ancestry groups using high-dimensional SNP variation.
+
+![ROC Curves](figures/ancestry_multiclass_roc.png)
+
+---
 
 # Technologies Used
 
