@@ -275,6 +275,14 @@ The analysis provides interpretable genomic markers associated with population s
 
 ---
 
+## Summary of Results
+
+A structured summary of the main experiments is available in:
+
+[`results/summary_results.csv`](results/summary_results.png)
+
+---
+
 # Technologies Used
 
 - Python
