@@ -273,11 +273,6 @@ The analysis identified the most informative SNPs contributing to continental an
 
 This provides a first step toward interpretable genomic machine learning and explainable AI for forensic genomics.
 
-### Top SNP Drivers of Ancestry
-
-![Explainable SNP Importance](figures/explainable_snp_importance.png)
-
----
 
 ### Top SNP Drivers of Ancestry
 
