@@ -382,6 +382,13 @@ genomic_identification/
 ```
 
 ---
+## Interactive Genomic AI Dashboard
+
+Live application:
+
+https://genomic-identification-ai.streamlit.app/
+
+---
 
 # Future Directions
 
