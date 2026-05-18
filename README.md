@@ -189,7 +189,6 @@ demonstrating that high-dimensional genomic variation preserves strong populatio
 
 ---
 
-
 ## Population-Aware Ancestry Inference
 
 A supervised genomic ancestry classifier was trained using SNP vectors from the 1000 Genomes Project.
@@ -206,7 +205,6 @@ using genomic variation patterns extracted from chromosome 20.
 
 The ancestry inference model achieved approximately **81% classification accuracy** using a Random Forest classifier trained on 10,000 SNPs across 1,000 individuals.
 
-### Confusion Matrix
 ---
 
 ## Population-Aware Ancestry Inference
@@ -224,6 +222,8 @@ The model predicts continental ancestry groups:
 using genomic variation patterns extracted from chromosome 20.
 
 The ancestry inference model achieved approximately **81% classification accuracy** using a Random Forest classifier trained on 10,000 SNPs across 1,000 individuals.
+
+---
 
 ### Confusion Matrix
 
@@ -237,6 +237,8 @@ Bayesian-style posterior probabilities were estimated from genomic similarity sc
 
 The probabilistic framework transforms cosine similarity evidence into normalized posterior identity distributions, enabling confidence-aware genomic matching under degraded and mixed DNA conditions.
 
+---
+
 ### Posterior Identity Distribution
 
 ![Bayesian Posterior](figures/bayesian_posterior_identity.png)
@@ -249,11 +251,15 @@ Posterior entropy was used to quantify uncertainty in genomic identity assignmen
 
 Lower entropy indicates confident identity predictions, while higher entropy reflects ambiguous or mixed genomic evidence.
 
+---
+
+
 ### Bayesian Confidence and Uncertainty
 
 ![Bayesian Uncertainty](figures/bayesian_uncertainty_metrics.png)
 
 ---
+
 ## Bayesian Identity Confidence and Uncertainty
 
 Bayesian posterior probabilities and entropy metrics were used to quantify confidence and uncertainty in forensic genomic identity assignment.
@@ -261,6 +267,7 @@ Bayesian posterior probabilities and entropy metrics were used to quantify confi
 Lower entropy corresponds to more confident identity predictions, while higher entropy reflects ambiguous or mixed genomic evidence.
 
 ![Bayesian Uncertainty](figures/bayesian_identity_uncertainty.png)
+
 
 ---
 ## Multiclass ROC Analysis
@@ -271,7 +278,6 @@ The classifier demonstrated strong discriminative performance across continental
 
 ![ROC Curves](figures/ancestry_multiclass_roc.png)
 
----
 ---
 
 ## Explainable Genomic AI
