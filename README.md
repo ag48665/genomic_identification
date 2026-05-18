@@ -267,11 +267,21 @@ The classifier demonstrated strong discriminative performance across continental
 
 ## Explainable Genomic AI
 
-Feature importance analysis identified the most informative SNPs contributing to ancestry inference classification.
+To interpret ancestry predictions, feature importance analysis was performed on the Random Forest ancestry classifier.
 
-The analysis provides interpretable genomic markers associated with population structure and ancestry prediction.
+The analysis identified the most informative SNPs contributing to continental ancestry prediction.
 
-![Top SNPs](figures/top_informative_snps.png)
+This provides a first step toward interpretable genomic machine learning and explainable AI for forensic genomics.
+
+### Top SNP Drivers of Ancestry
+
+![Explainable SNP Importance](figures/explainable_snp_importance.png)
+
+---
+
+### Top SNP Drivers of Ancestry
+
+![Explainable SNP Importance](figures/explainable_snp_importance.png)
 
 ---
 
