@@ -233,6 +233,17 @@ The ancestry inference model achieved approximately **81% classification accurac
 
 ---
 
+## Bayesian Posterior Identity Inference
+
+Bayesian-style posterior probabilities were estimated from genomic similarity scores to quantify uncertainty in forensic identity assignment.
+
+The probabilistic framework transforms cosine similarity evidence into normalized posterior identity distributions, enabling confidence-aware genomic matching under degraded and mixed DNA conditions.
+
+### Posterior Identity Distribution
+
+![Bayesian Posterior](figures/bayesian_posterior_identity.png)
+
+---
 
 # Technologies Used
 
