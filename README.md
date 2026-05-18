@@ -321,6 +321,27 @@ Feature importance analysis provides an interpretable layer for genomic machine 
 
 ---
 
+## Robustness of Ancestry Inference Under DNA Degradation
+
+To evaluate forensic robustness, ancestry inference performance was tested under progressive SNP dropout conditions simulating degraded DNA samples.
+
+Synthetic degradation was introduced by randomly masking increasing proportions of SNPs:
+
+- 10%
+- 30%
+- 50%
+- 70%
+- 90%
+
+The ancestry classifier remained relatively stable under moderate degradation levels but showed declining performance as genomic information became increasingly sparse.
+
+This experiment demonstrates the sensitivity of population-aware genomic inference to missing genetic information in forensic-style scenarios.
+
+### Ancestry Robustness Curve
+
+![Ancestry Robustness](figures/ancestry_robustness_curve.png)
+
+---
 # Technologies Used
 
 - Python
