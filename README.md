@@ -245,6 +245,20 @@ The probabilistic framework transforms cosine similarity evidence into normalize
 
 ---
 
+---
+
+## Bayesian Uncertainty Quantification
+
+Posterior entropy was used to quantify uncertainty in genomic identity assignment.
+
+Lower entropy indicates confident identity predictions, while higher entropy reflects ambiguous or mixed genomic evidence.
+
+### Bayesian Confidence and Uncertainty
+
+![Bayesian Uncertainty](figures/bayesian_uncertainty_metrics.png)
+
+---
+
 # Technologies Used
 
 - Python
