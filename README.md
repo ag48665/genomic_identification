@@ -272,6 +272,17 @@ The classifier demonstrated strong discriminative performance across continental
 ![ROC Curves](figures/ancestry_multiclass_roc.png)
 
 ---
+---
+
+## Explainable Genomic AI
+
+Feature importance analysis identified the most informative SNPs contributing to ancestry inference classification.
+
+The analysis provides interpretable genomic markers associated with population structure and ancestry prediction.
+
+![Top SNPs](figures/top_informative_snps.png)
+
+---
 
 # Technologies Used
 
