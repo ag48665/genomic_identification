@@ -361,6 +361,26 @@ This experiment demonstrates the sensitivity of population-aware genomic inferen
 ![Ancestry Robustness](figures/ancestry_robustness_curve.png)
 
 ---
+
+## Deep Genomic Embeddings
+
+A neural autoencoder was trained on genomic SNP matrices
+to learn compressed latent representations of human genomes.
+
+The model successfully reduced high-dimensional genotype
+space into biologically meaningful low-dimensional embeddings,
+capturing latent genomic variation across individuals.
+
+### Learned Latent Genomic Representation
+
+![Latent Genomic Representation](figures/deep_autoencoder_genomic_embeddings.png)
+
+### Autoencoder Training Loss
+
+![Training Loss](figures/autoencoder_training_loss.png)
+
+---
+
 # Technologies Used
 
 - Python
