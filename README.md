@@ -277,9 +277,7 @@ The analysis provides interpretable genomic markers associated with population s
 
 ## Summary of Results
 
-A structured summary of the main experiments is available in:
-
-[`results/summary_results.png`](results/summary_results.png)
+![Summary Table](results/summary_results.png)
 
 ---
 
