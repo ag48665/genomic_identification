@@ -7,6 +7,9 @@
 ![Pipeline](figures/genomic_pipeline_diagram.png)
 
 ---
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://genomic-identification-ai.streamlit.app/)
+
+---
 
 ## Using Deep Learning and Probabilistic Genomic Inference
 
@@ -380,13 +383,6 @@ genomic_identification/
 ├── README.md
 └── requirements.txt
 ```
-
----
-## Interactive Genomic AI Dashboard
-
-Live application:
-
-https://genomic-identification-ai.streamlit.app/
 
 ---
 
