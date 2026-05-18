@@ -392,17 +392,16 @@ capturing latent genomic variation across individuals.
 
 ---
 
-# Technologies Used
+## Tech Stack
 
 - Python
-- NumPy
-- SciPy
+- PyTorch
 - scikit-learn
 - scikit-allel
+- NumPy
 - Matplotlib
-- PyTorch
-- Jupyter Notebook
-
+- Streamlit
+- Genomic VCF processing
 ---
 
 # Project Structure
