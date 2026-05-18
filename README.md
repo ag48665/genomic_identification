@@ -15,7 +15,7 @@
 ---
 ## Interactive Dashboard Preview
 
-![Dashboard](figures/streamplit_app_screenshot.png)
+![Streamlit Dashboard](figures/streamlit.app%20-%20screenshot.png)
 
 ---
 
