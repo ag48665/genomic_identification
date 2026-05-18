@@ -301,6 +301,26 @@ The resulting probability distribution demonstrates probabilistic ancestry decom
 
 ---
 
+## Explainable Genomic Feature Importance
+
+To investigate which genomic loci contributed most strongly to ancestry prediction, feature importance analysis was performed using the trained Random Forest ancestry inference classifier.
+
+The model identified specific SNP positions with the strongest influence on population-level classification across:
+
+- AFR
+- AMR
+- EAS
+- EUR
+- SAS
+
+Feature importance analysis provides an interpretable layer for genomic machine learning and highlights how ancestry-associated genomic variation contributes to prediction performance.
+
+### Top SNP Feature Importances
+
+![SNP Feature Importance](figures/snp_feature_importance.png)
+
+---
+
 # Technologies Used
 
 - Python
