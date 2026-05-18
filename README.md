@@ -380,6 +380,17 @@ capturing latent genomic variation across individuals.
 ![Training Loss](figures/Autoencoder%20Training%20Loss.png)
 
 ---
+## Key Features
+
+- Population structure inference from genomic SNP data
+- PCA and UMAP visualization of ancestry clusters
+- Bayesian genomic identity uncertainty estimation
+- DNA degradation robustness simulation
+- Explainable AI using SNP feature importance analysis
+- Deep autoencoder latent genomic embeddings
+- Interactive Streamlit AI dashboard
+
+---
 
 # Technologies Used
 
