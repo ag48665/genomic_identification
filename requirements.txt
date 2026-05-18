@@ -5,3 +5,5 @@ scikit-learn
 scipy
 torch
 scikit-allel
+streamlit
+pillow
