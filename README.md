@@ -168,7 +168,29 @@ Population labels reveal latent ancestry structure encoded in genomic variation.
 ![Population PCA](figures/population_aware_pca.png)
 
 ---
+
 ---
+
+## Population Structure Visualization with UMAP
+
+UMAP dimensionality reduction was applied to genomic SNP vectors to visualize latent ancestry structure across continental populations from the 1000 Genomes Project.
+
+Distinct genomic clustering patterns emerged across:
+
+- AFR
+- AMR
+- EAS
+- EUR
+- SAS
+
+demonstrating that high-dimensional genomic variation preserves strong population-level structure.
+
+### UMAP Embedding of Population Structure
+
+![Population UMAP](figures/population_umap_structure.png)
+
+---
+
 
 ## Population-Aware Ancestry Inference
 
