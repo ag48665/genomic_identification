@@ -291,6 +291,16 @@ PCA visualization demonstrates how admixed genomes occupy intermediate regions w
 
 ---
 
+## Probabilistic Ancestry Deconvolution
+
+The ancestry inference model was applied to a synthetic admixed genome generated from mixed EUR and AFR genomic profiles.
+
+The resulting probability distribution demonstrates probabilistic ancestry decomposition across continental populations.
+
+![Admixed Ancestry](figures/admixed_ancestry_probabilities.png)
+
+---
+
 # Technologies Used
 
 - Python
